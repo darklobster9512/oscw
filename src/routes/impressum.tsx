@@ -4,16 +4,16 @@ import { LegalLayout } from "@/components/legal/LegalLayout";
 export const Route = createFileRoute("/impressum")({
   head: () => ({
     meta: [
-      { title: "Impressum · Sekretariat24" },
+      { title: "Impressum · Sekretariat-Service" },
       {
         name: "description",
         content:
-          "Anbieterkennzeichnung nach § 5 TMG der aigis one GmbH – Betreiberin von Sekretariat24.",
+          "Anbieterkennzeichnung nach § 5 TMG der OSCW Office Service & Co. Working GmbH – Betreiberin von Sekretariat-Service.",
       },
-      { property: "og:title", content: "Impressum · Sekretariat24" },
+      { property: "og:title", content: "Impressum · Sekretariat-Service" },
       {
         property: "og:description",
-        content: "Anbieterkennzeichnung nach § 5 TMG der aigis one GmbH.",
+        content: "Anbieterkennzeichnung nach § 5 TMG der OSCW Office Service & Co. Working GmbH.",
       },
       { property: "og:url", content: "/impressum" },
       { name: "robots", content: "noindex" },
@@ -27,7 +27,7 @@ function ImpressumPage() {
   return (
     <LegalLayout
       title="Impressum"
-      intro="Angaben gemäß § 5 TMG sowie § 18 Abs. 2 MStV zur Betreiberin von web.sekretariat24.app."
+      intro="Angaben gemäß § 5 TMG sowie § 18 Abs. 2 MStV zur Betreiberin von sekretariat-service.de."
       sections={[
         {
           id: "anbieter",
@@ -35,11 +35,11 @@ function ImpressumPage() {
           content: (
             <>
               <p>
-                <strong className="text-foreground">aigis one GmbH</strong>
+                <strong className="text-foreground">OSCW Office Service & Co. Working GmbH</strong>
                 <br />
-                Liefergasse 5
+                Hugo-Heimann-Str. 37
                 <br />
-                40213 Düsseldorf
+                12353 Berlin
                 <br />
                 Deutschland
               </p>
@@ -50,11 +50,11 @@ function ImpressumPage() {
                 </a>
                 <br />
                 E-Mail:{" "}
-                <a href="mailto:info@sekretariat24.app" className="text-foreground hover:text-primary">
-                  info@sekretariat24.app
+                <a href="mailto:kontakt@sekretariat-service.de" className="text-foreground hover:text-primary">
+                  kontakt@sekretariat-service.de
                 </a>
                 <br />
-                Web: web.sekretariat24.app
+                Web: sekretariat-service.de
               </p>
             </>
           ),
@@ -62,7 +62,7 @@ function ImpressumPage() {
         {
           id: "vertretung",
           title: "Vertretungsberechtigte",
-          content: <p>Geschäftsführerin: Simone Heße</p>,
+          content: <p>Geschäftsführerin: Matteusz Pawlik</p>,
         },
         {
           id: "register",
@@ -71,9 +71,9 @@ function ImpressumPage() {
             <p>
               Eingetragen im Handelsregister
               <br />
-              Registergericht: Amtsgericht Düsseldorf
+              Registergericht: Amtsgericht Charlottenburg (Berlin)
               <br />
-              Registernummer: HRB 53630
+              Registernummer: HRB 258833 B
             </p>
           ),
         },
@@ -84,7 +84,7 @@ function ImpressumPage() {
             <p>
               Umsatzsteuer-Identifikationsnummer gemäß § 27 a UStG:
               <br />
-              <strong className="text-foreground">DE263471295</strong>
+              <strong className="text-foreground">DE345852620</strong>
             </p>
           ),
         },
@@ -93,7 +93,7 @@ function ImpressumPage() {
           title: "Verantwortlich für den Inhalt",
           content: (
             <p>
-              Verantwortlich nach § 18 Abs. 2 MStV: Simone Heße, Anschrift wie
+              Verantwortlich nach § 18 Abs. 2 MStV: Matteusz Pawlik, Anschrift wie
               oben.
             </p>
           ),
@@ -171,7 +171,7 @@ function ImpressumPage() {
           title: "Hinweis",
           content: (
             <p className="text-xs">
-              web.sekretariat24.app ist ein Produkt der aigis one GmbH.
+              sekretariat-service.de ist ein Produkt der OSCW Office Service & Co. Working GmbH.
             </p>
           ),
         },

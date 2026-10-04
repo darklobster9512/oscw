@@ -41,7 +41,7 @@ export function Nav() {
         <Phone className="h-4 w-4" strokeWidth={2.25} />
       </span>
       <span className="font-display text-xl font-semibold tracking-tight text-foreground">
-        Sekretariat24
+        Sekretariat-Service
       </span>
     </Link>
   );

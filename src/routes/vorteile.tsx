@@ -25,13 +25,13 @@ import {
 export const Route = createFileRoute("/vorteile")({
   head: () => ({
     meta: [
-      { title: "Vorteile – 24/7 Erreichbarkeit & mehr Umsatz · Sekretariat24" },
+      { title: "Vorteile – 24/7 Erreichbarkeit & mehr Umsatz · Sekretariat-Service" },
       {
         name: "description",
         content:
           "Nie wieder Anrufe verpassen: DSGVO-konform, deutschsprachig, ab Tag 1 einsatzbereit. Alle Vorteile im Überblick.",
       },
-      { property: "og:title", content: "Vorteile – 24/7 Erreichbarkeit & mehr Umsatz · Sekretariat24" },
+      { property: "og:title", content: "Vorteile – 24/7 Erreichbarkeit & mehr Umsatz · Sekretariat-Service" },
       {
         property: "og:description",
         content:
@@ -51,7 +51,7 @@ const benefits = [
   {
     icon: Focus,
     title: "Voller Fokus aufs Kerngeschäft",
-    text: "Keine Störungen durch Anrufe. Egal ob in Meetings, Terminen oder bei der Arbeit – mit Sekretariat24 arbeiten Sie effektiver und entspannter.",
+    text: "Keine Störungen durch Anrufe. Egal ob in Meetings, Terminen oder bei der Arbeit – mit Sekretariat-Service arbeiten Sie effektiver und entspannter.",
   },
   {
     icon: Headphones,
@@ -61,7 +61,7 @@ const benefits = [
   {
     icon: Wallet,
     title: "Einfache & transparente Preise",
-    text: "Telefonservice vom Testsieger. 0 € Grundgebühr, 0,59 € pro Gespräch & Minute, 100 % Kostenkontrolle: Sekretariat24 ausschalten = keine Kosten.",
+    text: "Telefonservice vom Testsieger. 0 € Grundgebühr, 0,59 € pro Gespräch & Minute, 100 % Kostenkontrolle: Sekretariat-Service ausschalten = keine Kosten.",
   },
   {
     icon: Smile,
@@ -71,17 +71,17 @@ const benefits = [
   {
     icon: MousePointerClick,
     title: "Einfache Bedienung",
-    text: "Steuern Sie Ihr Sekretariat mit wenigen Klicks. Sekretariat24 lässt sich in Minuten einrichten und per Knopfdruck an- und ausschalten.",
+    text: "Steuern Sie Ihr Sekretariat mit wenigen Klicks. Sekretariat-Service lässt sich in Minuten einrichten und per Knopfdruck an- und ausschalten.",
   },
   {
     icon: Building2,
     title: "Professioneller Auftritt",
-    text: "Perfekte Außendarstellung mit Sekretariat24. Vermitteln Sie Anrufern vom ersten Kontakt an einen professionellen Eindruck von Ihrem Unternehmen.",
+    text: "Perfekte Außendarstellung mit Sekretariat-Service. Vermitteln Sie Anrufern vom ersten Kontakt an einen professionellen Eindruck von Ihrem Unternehmen.",
   },
   {
     icon: ShieldCheck,
     title: "DSGVO-konform",
-    text: "Ihre Daten in sicheren Händen. Sekretariat24 ist zu 100 % DSGVO-konform mit strenger Verschwiegenheitspflicht gemäß § 203 StGB.",
+    text: "Ihre Daten in sicheren Händen. Sekretariat-Service ist zu 100 % DSGVO-konform mit strenger Verschwiegenheitspflicht gemäß § 203 StGB.",
   },
   {
     icon: Bell,
@@ -101,7 +101,7 @@ const benefits = [
   {
     icon: Zap,
     title: "Einfache Integration",
-    text: "Anbindung an Ihre Plattformen. Mit Hilfe von Zapier lässt sich Sekretariat24 problemlos in andere Systeme integrieren.",
+    text: "Anbindung an Ihre Plattformen. Mit Hilfe von Zapier lässt sich Sekretariat-Service problemlos in andere Systeme integrieren.",
   },
 ];
 
@@ -123,7 +123,7 @@ function VorteilePage() {
               <Reveal delay={0.05}>
                 <h1 className="mt-6 font-display text-[2rem] leading-[1.05] tracking-tight md:text-[3.75rem]">
                   Jeder verpasste Anruf kostet Umsatz.{" "}
-                  <span className="text-primary">Sekretariat24 macht Schluss damit.</span>
+                  <span className="text-primary">Sekretariat-Service macht Schluss damit.</span>
                 </h1>
               </Reveal>
               <Reveal delay={0.1}>
@@ -177,7 +177,7 @@ function VorteilePage() {
                 Die Vorteile auf einen Blick
               </div>
               <h2 className="mt-3 font-display text-3xl tracking-tight md:text-5xl">
-                Was Sekretariat24 für Sie leistet
+                Was Sekretariat-Service für Sie leistet
               </h2>
             </div>
 

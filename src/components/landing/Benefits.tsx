@@ -49,7 +49,7 @@ export function Benefits() {
             Vorteile
           </div>
           <h2 className="mt-3 font-display text-3xl leading-tight tracking-tight md:text-5xl">
-            Warum sich Unternehmen für Sekretariat24 entscheiden
+            Warum sich Unternehmen für Sekretariat-Service entscheiden
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
             Ein Sekretariat, das mitdenkt, mitwächst und sich anfühlt wie ein

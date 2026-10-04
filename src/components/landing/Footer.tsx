@@ -34,12 +34,12 @@ export function Footer() {
       <div
         aria-hidden
         className="pointer-events-none absolute -left-32 top-0 h-96 w-96 rounded-full"
-        style={{ background: "radial-gradient(closest-side, rgba(123,237,159,0.15), transparent)" }}
+        style={{ background: "radial-gradient(closest-side, rgba(196,99,74,0.15), transparent)" }}
       />
       <div
         aria-hidden
         className="pointer-events-none absolute -right-32 bottom-0 h-96 w-96 rounded-full"
-        style={{ background: "radial-gradient(closest-side, rgba(123,237,159,0.12), transparent)" }}
+        style={{ background: "radial-gradient(closest-side, rgba(196,99,74,0.12), transparent)" }}
       />
 
       <div className="container-page relative py-20 lg:py-24">
@@ -52,7 +52,7 @@ export function Footer() {
                 <Phone className="h-5 w-5" strokeWidth={2.25} />
               </span>
               <span className="font-display text-2xl tracking-tight text-ink-deep-foreground">
-                Sekretariat24
+                Sekretariat-Service
               </span>
             </div>
 
@@ -79,13 +79,13 @@ export function Footer() {
                 <span className="font-medium">0211 97537952</span>
               </a>
               <a
-                href="mailto:info@sekretariat24.app"
+                href="mailto:kontakt@sekretariat-service.de"
                 className="group flex items-center gap-3 text-ink-deep-foreground/80 transition-colors hover:text-primary"
               >
                 <span className="grid h-9 w-9 place-items-center rounded-lg bg-ink-deep-foreground/5">
                   <Mail className="h-4 w-4" />
                 </span>
-                <span className="font-medium">info@sekretariat24.app</span>
+                <span className="font-medium">kontakt@sekretariat-service.de</span>
               </a>
             </div>
           </div>
@@ -170,7 +170,7 @@ export function Footer() {
         {/* Bottom bar */}
         <div className="mt-16 flex flex-col items-start justify-between gap-6 border-t border-ink-deep-foreground/10 pt-8 md:flex-row md:items-center">
           <p className="text-sm text-ink-deep-foreground/50">
-            © {new Date().getFullYear()} aigis one GmbH – Sekretariat24 ist ein Produkt der aigis one GmbH.
+            © {new Date().getFullYear()} OSCW Office Service & Co. Working GmbH – Sekretariat-Service ist ein Produkt der OSCW Office Service & Co. Working GmbH.
           </p>
           <div className="flex flex-wrap items-center gap-3">
             <span className="inline-flex items-center gap-1.5 rounded-full border border-ink-deep-foreground/10 px-3 py-1 text-xs text-ink-deep-foreground/70">

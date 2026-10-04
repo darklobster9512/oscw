@@ -64,7 +64,7 @@ export const jobs: Job[] = [
     heroHeadline: "Werde Teil unseres Sekretariats‑Teams",
     heroText:
       "Als virtuelle Sekretärin nimmst du Anrufe für unsere Kundenunternehmen entgegen – professionell, freundlich, aus dem Homeoffice. Faire Bezahlung, planbare Schichten, echtes Team.",
-    roleHeadline: "Deine Rolle bei Sekretariat24",
+    roleHeadline: "Deine Rolle bei Sekretariat-Service",
     roleParagraphs: [
       "Du bist die Stimme für viele verschiedene Unternehmen – von der Handwerks­firma über die Arztpraxis bis zum Online‑Shop. Kein Kunde wartet in der Warteschleife, keine Nachricht geht verloren.",
       "Jeden Anruf beantwortest du im Namen des jeweiligen Unternehmens, erfasst die wichtigsten Informationen und leitest sie sauber weiter. Du arbeitest strukturiert in modernen Tools, hast klare Prozesse an der Hand und ein Team im Rücken.",
@@ -100,9 +100,9 @@ export const jobs: Job[] = [
         text: "Du repräsentierst mehrere Unternehmen – professionell und empathisch.",
       },
     ],
-    seoTitle: "Sekretär:in im Homeoffice (m/w/d) · Karriere · Sekretariat24",
+    seoTitle: "Sekretär:in im Homeoffice (m/w/d) · Karriere · Sekretariat-Service",
     seoDescription:
-      "20 € Stundenlohn, 100 % Homeoffice, Teilzeit oder Vollzeit. Jetzt als Sekretärin bei Sekretariat24 bewerben.",
+      "20 € Stundenlohn, 100 % Homeoffice, Teilzeit oder Vollzeit. Jetzt als Sekretärin bei Sekretariat-Service bewerben.",
   },
   {
     slug: "recruiting",
@@ -119,7 +119,7 @@ export const jobs: Job[] = [
       "Als telefonische:r Recruiter:in führst du im Auftrag verschiedener Kundenunternehmen Vorqualifizierungen und Erstgespräche mit Kandidat:innen – strukturiert, wertschätzend und aus dem Homeoffice. Faire Bezahlung, planbare Schichten, echtes Team.",
     roleHeadline: "Deine Rolle für unsere Kunden",
     roleParagraphs: [
-      "Unsere Kundenunternehmen – von Handwerksbetrieben über Praxen bis zu Online-Shops – beauftragen Sekretariat24 mit der telefonischen Kandidatenansprache und -vorqualifizierung. Du bist der erste persönliche Kontakt für deren Bewerber:innen.",
+      "Unsere Kundenunternehmen – von Handwerksbetrieben über Praxen bis zu Online-Shops – beauftragen Sekretariat-Service mit der telefonischen Kandidatenansprache und -vorqualifizierung. Du bist der erste persönliche Kontakt für deren Bewerber:innen.",
       "Du führst Screening-Calls, dokumentierst Ergebnisse sauber in den Systemen des jeweiligen Kundenunternehmens und koordinierst Folgegespräche. Klare Prozesse, feste Gesprächsleitfäden und ein Team, das dich einarbeitet.",
     ],
     tasksTitle: "Deine Aufgaben",
@@ -156,8 +156,8 @@ export const jobs: Job[] = [
         text: "Du erkennst schnell, ob ein Profil zu einem Kundenunternehmen passt, und kommunizierst Entscheidungen wertschätzend.",
       },
     ],
-    seoTitle: "Telefonische:r Recruiter:in für Kundenunternehmen (m/w/d) · Karriere · Sekretariat24",
+    seoTitle: "Telefonische:r Recruiter:in für Kundenunternehmen (m/w/d) · Karriere · Sekretariat-Service",
     seoDescription:
-      "20 € Stundenlohn, 100 % Homeoffice, Teilzeit oder Vollzeit. Recruiting-Calls für Kundenunternehmen im Auftrag von Sekretariat24.",
+      "20 € Stundenlohn, 100 % Homeoffice, Teilzeit oder Vollzeit. Recruiting-Calls für Kundenunternehmen im Auftrag von Sekretariat-Service.",
   },
 ];

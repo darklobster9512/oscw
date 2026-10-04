@@ -133,7 +133,7 @@ export function ApplicationForm({ stelle }: { stelle: string }) {
       setErrors({
         submit: reason
           ? `Bewerbung konnte nicht gesendet werden: ${reason}`
-          : "Bewerbung konnte nicht gesendet werden. Bitte versuche es erneut oder schreibe uns an info@sekretariat24.app.",
+          : "Bewerbung konnte nicht gesendet werden. Bitte versuche es erneut oder schreibe uns an kontakt@sekretariat-service.de.",
       });
     } finally {
       setSubmitting(false);
@@ -359,7 +359,7 @@ function CvUpload({ error }: { error?: string }) {
         <button
           type="button"
           onClick={openPicker}
-          className="group flex w-full items-center gap-4 rounded-2xl border border-border bg-card p-5 text-left shadow-[0_8px_30px_rgba(0,0,0,0.04)] transition-all duration-300 hover:border-primary/40 hover:shadow-[0_20px_40px_rgba(123,237,159,0.15)]"
+          className="group flex w-full items-center gap-4 rounded-2xl border border-border bg-card p-5 text-left shadow-[0_8px_30px_rgba(0,0,0,0.04)] transition-all duration-300 hover:border-primary/40 hover:shadow-[0_20px_40px_rgba(196,99,74,0.15)]"
         >
           <div className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-primary/20 text-foreground transition-transform duration-300 group-hover:scale-105">
             <FileText className="h-6 w-6" />

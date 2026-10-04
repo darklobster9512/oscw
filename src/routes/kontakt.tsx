@@ -21,13 +21,13 @@ import {
 export const Route = createFileRoute("/kontakt")({
   head: () => ({
     meta: [
-      { title: "Kontakt & Rückruf-Service · Sekretariat24" },
+      { title: "Kontakt & Rückruf-Service · Sekretariat-Service" },
       {
         name: "description",
         content:
           "Rückruf innerhalb von 60 Minuten. Sprechen Sie mit unserem Team über Ihren individuellen Telefonservice.",
       },
-      { property: "og:title", content: "Kontakt & Rückruf-Service · Sekretariat24" },
+      { property: "og:title", content: "Kontakt & Rückruf-Service · Sekretariat-Service" },
       {
         property: "og:description",
         content:
@@ -170,10 +170,10 @@ function KontaktPage() {
                 <div>
                   <div className="text-sm text-muted-foreground">E-Mail</div>
                   <a
-                    href="mailto:info@sekretariat24.app"
+                    href="mailto:kontakt@sekretariat-service.de"
                     className="font-medium hover:text-primary"
                   >
-                    info@sekretariat24.app
+                    kontakt@sekretariat-service.de
                   </a>
                 </div>
               </div>
@@ -184,7 +184,7 @@ function KontaktPage() {
                 <div>
                   <div className="text-sm text-muted-foreground">Adresse</div>
                   <div className="font-medium">
-                    aigis one GmbH · Liefergasse 5 · 40213 Düsseldorf
+                    OSCW Office Service & Co. Working GmbH · Hugo-Heimann-Str. 37 · 12353 Berlin
                   </div>
                 </div>
               </div>

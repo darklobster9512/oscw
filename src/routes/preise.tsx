@@ -11,13 +11,13 @@ import { Check, Star, ArrowRight, Download } from "lucide-react";
 export const Route = createFileRoute("/preise")({
   head: () => ({
     meta: [
-      { title: "Preise – Sekundengenau ab 0,59 € · Sekretariat24" },
+      { title: "Preise – Sekundengenau ab 0,59 € · Sekretariat-Service" },
       {
         name: "description",
         content:
           "Transparente Preise ohne Grundgebühr. Sekundengenaue Abrechnung, keine Vertragslaufzeit. Jetzt Tarif berechnen.",
       },
-      { property: "og:title", content: "Preise – Sekundengenau ab 0,59 € · Sekretariat24" },
+      { property: "og:title", content: "Preise – Sekundengenau ab 0,59 € · Sekretariat-Service" },
       {
         property: "og:description",
         content:
@@ -59,22 +59,22 @@ const reviews = [
   {
     name: "Noah",
     date: "Juni 2026",
-    text: "Ich bin mit Sekretariat24 wirklich sehr zufrieden. Besonders beeindruckt mich, wie schnell Anrufe entgegengenommen werden. Die Telefonagenten sind rund um die Uhr freundlich, professionell und deutschsprachig. Auch die Steuerung des Services über das Interface ist sehr komfortabel und gut durchdacht.",
+    text: "Ich bin mit Sekretariat-Service wirklich sehr zufrieden. Besonders beeindruckt mich, wie schnell Anrufe entgegengenommen werden. Die Telefonagenten sind rund um die Uhr freundlich, professionell und deutschsprachig. Auch die Steuerung des Services über das Interface ist sehr komfortabel und gut durchdacht.",
   },
   {
     name: "Matthias Hengfeld",
     date: "Juni 2026",
-    text: "Wir nutzen den Telefonservice von Sekretariat24, wenn bei uns gerade viel zu tun ist. Das ermöglicht uns, uns voll auf unsere Arbeit zu konzentrieren, während Anrufe zuverlässig entgegengenommen werden.",
+    text: "Wir nutzen den Telefonservice von Sekretariat-Service, wenn bei uns gerade viel zu tun ist. Das ermöglicht uns, uns voll auf unsere Arbeit zu konzentrieren, während Anrufe zuverlässig entgegengenommen werden.",
   },
   {
     name: "Phuong Vo",
     date: "Mai 2026",
-    text: "Wir nutzen Sekretariat24 jetzt schon im 2. Monat. Ich bin mit der Bearbeitung und dem ganzen Prozess sehr zufrieden. Mit dem Backoffice können alle notwendigen Einstellungen vorgenommen werden. Einfacher geht's nicht.",
+    text: "Wir nutzen Sekretariat-Service jetzt schon im 2. Monat. Ich bin mit der Bearbeitung und dem ganzen Prozess sehr zufrieden. Mit dem Backoffice können alle notwendigen Einstellungen vorgenommen werden. Einfacher geht's nicht.",
   },
   {
     name: "Angelika Mausolff",
     date: "April 2026",
-    text: "Mit Sekretariat24 habe ich den Partner gefunden, den ich seit Jahren gesucht habe. Die Mitarbeiter nehmen meine Anrufe professionell entgegen und innerhalb weniger Minuten habe ich eine Info, wer angerufen hat.",
+    text: "Mit Sekretariat-Service habe ich den Partner gefunden, den ich seit Jahren gesucht habe. Die Mitarbeiter nehmen meine Anrufe professionell entgegen und innerhalb weniger Minuten habe ich eine Info, wer angerufen hat.",
   },
   {
     name: "Sandra Schaefer",
@@ -84,7 +84,7 @@ const reviews = [
   {
     name: "Michaela Haase",
     date: "März 2026",
-    text: "Sekretariat24 ist eine sehr gute Entlastung. Ich möchte den Service nicht mehr missen, weil es mir als Einzelunternehmerin die Möglichkeit bietet, in Ruhe konzentriert arbeiten zu können.",
+    text: "Sekretariat-Service ist eine sehr gute Entlastung. Ich möchte den Service nicht mehr missen, weil es mir als Einzelunternehmerin die Möglichkeit bietet, in Ruhe konzentriert arbeiten zu können.",
   },
 ];
 
@@ -129,7 +129,7 @@ function PreisePage() {
                 <p className="mx-auto mt-6 max-w-2xl text-lg text-muted-foreground">
                   0 € Grundgebühr, keine Vertragsbindung – Sie zahlen nur{" "}
                   <span className="font-semibold text-foreground">0,59 €</span> pro Gespräch und
-                  Bearbeitungsminute, sekundengenau abgerechnet. Sekretariat24 ausschalten = keine Kosten.
+                  Bearbeitungsminute, sekundengenau abgerechnet. Sekretariat-Service ausschalten = keine Kosten.
                 </p>
               </Reveal>
               <Reveal delay={0.15}>
@@ -176,7 +176,7 @@ function PreisePage() {
             <div className="mx-auto max-w-2xl text-center">
               <div className="text-sm font-medium uppercase tracking-wider text-primary">Preisrechner</div>
               <h2 className="mt-3 font-display text-3xl tracking-tight md:text-5xl">
-                Was kostet Sekretariat24 für Sie?
+                Was kostet Sekretariat-Service für Sie?
               </h2>
               <p className="mt-4 text-lg text-muted-foreground">
                 Schätzen Sie Ihr Anrufvolumen – wir rechnen Ihre voraussichtlichen Monatskosten aus.

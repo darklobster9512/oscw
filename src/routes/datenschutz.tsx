@@ -4,16 +4,16 @@ import { LegalLayout } from "@/components/legal/LegalLayout";
 export const Route = createFileRoute("/datenschutz")({
   head: () => ({
     meta: [
-      { title: "Datenschutzerklärung · Sekretariat24" },
+      { title: "Datenschutzerklärung · Sekretariat-Service" },
       {
         name: "description",
         content:
-          "Informationen zur Verarbeitung personenbezogener Daten bei Sekretariat24 gemäß DSGVO.",
+          "Informationen zur Verarbeitung personenbezogener Daten bei Sekretariat-Service gemäß DSGVO.",
       },
-      { property: "og:title", content: "Datenschutzerklärung · Sekretariat24" },
+      { property: "og:title", content: "Datenschutzerklärung · Sekretariat-Service" },
       {
         property: "og:description",
-        content: "Wie die aigis one GmbH Ihre Daten verarbeitet – transparent und DSGVO-konform.",
+        content: "Wie die OSCW Office Service & Co. Working GmbH Ihre Daten verarbeitet – transparent und DSGVO-konform.",
       },
       { property: "og:url", content: "/datenschutz" },
       { name: "robots", content: "noindex" },
@@ -27,7 +27,7 @@ function DatenschutzPage() {
   return (
     <LegalLayout
       title="Datenschutzerklärung"
-      intro="Der Schutz Ihrer personenbezogenen Daten ist uns wichtig. Nachfolgend informieren wir Sie über die Verarbeitung Ihrer Daten bei Nutzung von web.sekretariat24.app und unserer Dienstleistungen."
+      intro="Der Schutz Ihrer personenbezogenen Daten ist uns wichtig. Nachfolgend informieren wir Sie über die Verarbeitung Ihrer Daten bei Nutzung von sekretariat-service.de und unserer Dienstleistungen."
       sections={[
         {
           id: "verantwortlich",
@@ -36,13 +36,13 @@ function DatenschutzPage() {
             <p>
               Verantwortlich für die Datenverarbeitung im Sinne der DSGVO ist:
               <br />
-              <strong className="text-foreground">aigis one GmbH</strong>
+              <strong className="text-foreground">OSCW Office Service & Co. Working GmbH</strong>
               <br />
-              Liefergasse 5, 40213 Düsseldorf
+              Hugo-Heimann-Str. 37, 12353 Berlin
               <br />
               Telefon: 0211 97537952
               <br />
-              E-Mail: info@sekretariat24.app
+              E-Mail: kontakt@sekretariat-service.de
             </p>
           ),
         },

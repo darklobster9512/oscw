@@ -17,7 +17,7 @@ const items = [
   },
   {
     quote:
-      "Unsere MFAs können sich endlich um die Patienten in der Praxis kümmern. Sekretariat24 fühlt sich wirklich wie ein Teil unseres Teams an.",
+      "Unsere MFAs können sich endlich um die Patienten in der Praxis kümmern. Sekretariat-Service fühlt sich wirklich wie ein Teil unseres Teams an.",
     name: "Dr. Sofia Weiss",
     role: "Allgemeinmedizin · Praxis Weiss",
     img: "/testimonial-2.jpg",
@@ -33,7 +33,7 @@ export function Testimonials() {
             Stimmen unserer Kunden
           </div>
           <h2 className="mt-3 font-display text-3xl leading-tight tracking-tight md:text-5xl">
-            Was Unternehmer über Sekretariat24 sagen
+            Was Unternehmer über Sekretariat-Service sagen
           </h2>
         </div>
 

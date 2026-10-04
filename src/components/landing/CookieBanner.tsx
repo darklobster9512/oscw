@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "@tanstack/react-router";
 
-const STORAGE_KEY = "Sekretariat24-cookie-consent";
+const STORAGE_KEY = "Sekretariat-Service-cookie-consent";
 
 export function CookieBanner() {
   const [visible, setVisible] = useState(false);

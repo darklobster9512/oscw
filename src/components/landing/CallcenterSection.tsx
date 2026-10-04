@@ -22,12 +22,12 @@ export function CallcenterSection() {
       <div
         aria-hidden
         className="pointer-events-none absolute -right-20 top-20 h-96 w-96 rounded-full"
-        style={{ background: "radial-gradient(closest-side, rgba(123,237,159,0.25), transparent)" }}
+        style={{ background: "radial-gradient(closest-side, rgba(196,99,74,0.25), transparent)" }}
       />
       <div
         aria-hidden
         className="pointer-events-none absolute -left-20 bottom-0 h-96 w-96 rounded-full"
-        style={{ background: "radial-gradient(closest-side, rgba(123,237,159,0.15), transparent)" }}
+        style={{ background: "radial-gradient(closest-side, rgba(196,99,74,0.15), transparent)" }}
       />
 
       <div className="container-page relative py-20 md:py-28">
