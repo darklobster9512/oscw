@@ -1,6 +1,8 @@
 # Komplett neue Texte und Abschnitte
 
-Ziel: Die Seite soll inhaltlich und optisch eigenständig wirken – nicht mehr wie die Vorlage. Firmendaten, Preise, Meta-Pixel-IDs und das Bewerbungsformular bleiben unverändert.
+Ziel: Die Seite soll inhaltlich und im Aufbau eigenständig wirken – nicht mehr wie das Original. Alle Texte werden komplett neu geschrieben, die Abschnitte neu angeordnet und neu gestaltet.
+
+Bleibt gleich: das Hero-Foto, die Farben und Schriften, Logo, Firmendaten, Preise, Meta-Pixel-IDs und das Bewerbungsformular.
 
 ## Startseite – neue Reihenfolge und Abschnitte
 
