@@ -44,12 +44,7 @@ function ImpressumPage() {
                 Deutschland
               </p>
               <p>
-                Telefon:{" "}
-                <a href="tel:+4921197537952" className="text-foreground hover:text-primary">
-                  0211 97537952
-                </a>
-                <br />
-                E-Mail:{" "}
+               E-Mail:{" "}
                 <a href="mailto:kontakt@sekretariat-service.de" className="text-foreground hover:text-primary">
                   kontakt@sekretariat-service.de
                 </a>
@@ -62,7 +57,7 @@ function ImpressumPage() {
         {
           id: "vertretung",
           title: "Vertretungsberechtigte",
-          content: <p>Geschäftsführerin: Matteusz Pawlik</p>,
+          content: <p>Geschäftsführer: Matteusz Pawlik</p>,
         },
         {
           id: "register",

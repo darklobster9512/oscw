@@ -70,15 +70,6 @@ export function Footer() {
 
             <div className="flex flex-row flex-wrap gap-4 pt-2 text-sm">
               <a
-                href="tel:+4921197537952"
-                className="group flex items-center gap-3 text-ink-deep-foreground/80 transition-colors hover:text-primary"
-              >
-                <span className="grid h-9 w-9 place-items-center rounded-lg bg-ink-deep-foreground/5">
-                  <Phone className="h-4 w-4" />
-                </span>
-                <span className="font-medium">0211 97537952</span>
-              </a>
-              <a
                 href="mailto:kontakt@sekretariat-service.de"
                 className="group flex items-center gap-3 text-ink-deep-foreground/80 transition-colors hover:text-primary"
               >

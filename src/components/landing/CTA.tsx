@@ -52,18 +52,6 @@ export function CTA() {
                 </a>
               </Button>
 
-              <a
-                href="tel:+4921197537952"
-                className="group flex flex-col"
-              >
-                <span className="text-sm text-ink-deep-foreground/60">
-                  Persönliche Beratung
-                </span>
-                <span className="flex items-center gap-2 font-semibold text-ink-deep-foreground transition-colors group-hover:text-primary">
-                  <Phone className="h-4 w-4" />
-                  0211 97537952
-                </span>
-              </a>
             </div>
           </div>
 

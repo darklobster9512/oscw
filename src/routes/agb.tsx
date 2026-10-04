@@ -165,7 +165,7 @@ function AgbPage() {
               des UN-Kaufrechts. Ausschließlicher Gerichtsstand für alle
               Streitigkeiten mit Kaufleuten, juristischen Personen des
               öffentlichen Rechts oder öffentlich-rechtlichen Sonder-
-              vermögen ist Düsseldorf. Sollten einzelne Bestimmungen unwirksam
+              vermögen ist Berlin. Sollten einzelne Bestimmungen unwirksam
               sein, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt.
             </p>
           ),

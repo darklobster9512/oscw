@@ -40,7 +40,7 @@ function DatenschutzPage() {
               <br />
               Hugo-Heimann-Str. 37, 12353 Berlin
               <br />
-              Telefon: 0211 97537952
+
               <br />
               E-Mail: kontakt@sekretariat-service.de
             </p>

@@ -151,20 +151,6 @@ function KontaktPage() {
             <div className="mt-8 space-y-5">
               <div className="flex items-start gap-4">
                 <div className="grid h-10 w-10 place-items-center rounded-lg bg-primary/8 text-primary ring-1 ring-primary/10">
-                  <Phone className="h-4 w-4" />
-                </div>
-                <div>
-                  <div className="text-sm text-muted-foreground">Telefon</div>
-                  <a
-                    href="tel:+4921197537952"
-                    className="font-medium hover:text-primary"
-                  >
-                    0211 97537952
-                  </a>
-                </div>
-              </div>
-              <div className="flex items-start gap-4">
-                <div className="grid h-10 w-10 place-items-center rounded-lg bg-primary/8 text-primary ring-1 ring-primary/10">
                   <Mail className="h-4 w-4" />
                 </div>
                 <div>
@@ -199,12 +185,6 @@ function KontaktPage() {
               </div>
             </div>
 
-            <a
-              href="tel:+4921197537952"
-              className="mt-8 inline-flex items-center gap-2 rounded-full border border-border bg-surface px-5 py-2.5 text-sm font-medium hover:border-primary/40 hover:text-primary transition-colors"
-            >
-              <PhoneCall className="h-4 w-4" /> Jetzt direkt anrufen
-            </a>
           </div>
 
           {/* Right – primary card */}
