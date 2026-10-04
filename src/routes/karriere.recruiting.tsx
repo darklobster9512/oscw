@@ -1,0 +1,47 @@
+import { createFileRoute } from "@tanstack/react-router";
+import { JobPage } from "@/components/karriere/JobPage";
+import { jobs } from "@/data/jobs";
+
+const job = jobs.find((j) => j.slug === "recruiting")!;
+
+const RECRUITING_PIXEL_ID = "1369317532038808";
+
+const recruitingPixelScript = `!function(f,b,e,v,n,t,s)
+{if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+n.queue=[];t=b.createElement(e);t.async=!0;
+t.src=v;s=b.getElementsByTagName(e)[0];
+s.parentNode.insertBefore(t,s)}(window,document,'script',
+'https://connect.facebook.net/en_US/fbevents.js');
+fbq('init','${RECRUITING_PIXEL_ID}');
+fbq('track','PageView');`;
+
+const recruitingPixelNoScript = `var ns=document.createElement('noscript');
+var img=document.createElement('img');
+img.height=1;
+img.width=1;
+img.style.display='none';
+img.src='https://www.facebook.com/tr?id=${RECRUITING_PIXEL_ID}&ev=PageView&noscript=1';
+ns.appendChild(img);
+document.body.appendChild(ns);`;
+
+export const Route = createFileRoute("/karriere/recruiting")({
+  head: () => ({
+    meta: [
+      { title: job.seoTitle },
+      { name: "description", content: job.seoDescription },
+      { property: "og:title", content: job.seoTitle },
+      { property: "og:description", content: job.seoDescription },
+      { property: "og:type", content: "website" },
+      { property: "og:url", content: "/karriere/recruiting" },
+      { name: "twitter:card", content: "summary_large_image" },
+    ],
+    links: [{ rel: "canonical", href: "/karriere/recruiting" }],
+    scripts: [
+      { children: recruitingPixelScript },
+      { children: recruitingPixelNoScript },
+    ],
+  }),
+  component: () => <JobPage job={job} />,
+});
