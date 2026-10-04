@@ -27,13 +27,13 @@ import {
 export const Route = createFileRoute("/callcenter")({
   head: () => ({
     meta: [
-      { title: "Callcenter-Lösungen für Unternehmen · Sekretariat24" },
+      { title: "Callcenter-Lösungen für Unternehmen · Sekretariat-Service" },
       {
         name: "description",
         content:
           "Inbound-Callcenter mit qualifizierten Agenten, CRM-Integration und messbaren KPIs. Skalierbar von 10 bis 10.000 Anrufen.",
       },
-      { property: "og:title", content: "Callcenter-Lösungen für Unternehmen · Sekretariat24" },
+      { property: "og:title", content: "Callcenter-Lösungen für Unternehmen · Sekretariat-Service" },
       {
         property: "og:description",
         content:
@@ -163,7 +163,7 @@ function CallcenterPage() {
               <Reveal delay={0.05}>
                 <h1 className="mt-6 font-display text-[2rem] leading-[1.05] tracking-tight md:text-[3.75rem]">
                   Ihre Prozesse brauchen mehr als Telefonannahme?{" "}
-                  <span className="text-primary">Sekretariat24 ist Ihr Callcenter-Partner.</span>
+                  <span className="text-primary">Sekretariat-Service ist Ihr Callcenter-Partner.</span>
                 </h1>
               </Reveal>
               <Reveal delay={0.1}>
@@ -374,7 +374,7 @@ function CallcenterPage() {
                 Ihre Vorteile
               </div>
               <h2 className="mt-3 font-display text-3xl tracking-tight md:text-5xl">
-                Sekretariat24 als Callcenter-Partner
+                Sekretariat-Service als Callcenter-Partner
               </h2>
             </div>
 
@@ -398,7 +398,7 @@ function CallcenterPage() {
             <div className="mx-auto max-w-2xl text-center">
               <div className="text-sm font-medium uppercase tracking-wider text-primary">Start</div>
               <h2 className="mt-3 font-display text-3xl tracking-tight md:text-5xl">
-                So starten Sie mit Sekretariat24
+                So starten Sie mit Sekretariat-Service
               </h2>
             </div>
 

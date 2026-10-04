@@ -9,13 +9,13 @@ import { ShieldCheck, BarChart3, Megaphone } from "lucide-react";
 export const Route = createFileRoute("/cookie-einstellungen")({
   head: () => ({
     meta: [
-      { title: "Cookie-Einstellungen · Sekretariat24" },
+      { title: "Cookie-Einstellungen · Sekretariat-Service" },
       {
         name: "description",
         content:
-          "Verwalten Sie Ihre Cookie-Präferenzen für web.sekretariat24.app – transparent und jederzeit anpassbar.",
+          "Verwalten Sie Ihre Cookie-Präferenzen für sekretariat-service.de – transparent und jederzeit anpassbar.",
       },
-      { property: "og:title", content: "Cookie-Einstellungen · Sekretariat24" },
+      { property: "og:title", content: "Cookie-Einstellungen · Sekretariat-Service" },
       {
         property: "og:description",
         content: "Ihre Cookie-Präferenzen – notwendig, Statistik und Marketing individuell steuern.",
@@ -98,7 +98,7 @@ function CookiePage() {
               Cookie-Einstellungen
             </h1>
             <p className="mt-5 max-w-2xl text-base text-muted-foreground md:text-lg">
-              Wir verwenden Cookies, um web.sekretariat24.app sicher und komfortabel
+              Wir verwenden Cookies, um sekretariat-service.de sicher und komfortabel
               bereitzustellen. Sie entscheiden selbst, welche optionalen
               Kategorien Sie zulassen möchten – jederzeit änderbar.
             </p>

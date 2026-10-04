@@ -6,8 +6,8 @@ function MissedCallsChart() {
     <svg viewBox="0 0 200 60" className="mt-4 h-16 w-full" aria-hidden>
       <defs>
         <linearGradient id="chartFill" x1="0" y1="0" x2="0" y2="1">
-          <stop offset="0%" stopColor="oklch(0.78 0.19 152)" stopOpacity="0.35" />
-          <stop offset="100%" stopColor="oklch(0.78 0.19 152)" stopOpacity="0" />
+          <stop offset="0%" stopColor="var(--primary)" stopOpacity="0.35" />
+          <stop offset="100%" stopColor="var(--primary)" stopOpacity="0" />
         </linearGradient>
       </defs>
       <path
@@ -17,12 +17,12 @@ function MissedCallsChart() {
       <path
         d="M0,20 L20,25 L40,18 L60,30 L80,28 L100,40 L120,45 L140,52 L160,55 L180,58 L200,58"
         fill="none"
-        stroke="oklch(0.78 0.19 152)"
+        stroke="var(--primary)"
         strokeWidth="2"
         strokeLinecap="round"
         strokeLinejoin="round"
       />
-      <circle cx="200" cy="58" r="4" fill="oklch(0.78 0.19 152)" />
+      <circle cx="200" cy="58" r="4" fill="var(--primary)" />
     </svg>
   );
 }

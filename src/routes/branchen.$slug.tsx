@@ -16,13 +16,13 @@ export const Route = createFileRoute("/branchen/$slug")({
     if (!loaderData) {
       return {
         meta: [
-          { title: "Branche nicht gefunden · Sekretariat24" },
+          { title: "Branche nicht gefunden · Sekretariat-Service" },
           { name: "robots", content: "noindex" },
         ],
       };
     }
     const { industry } = loaderData;
-    const title = `Telefonservice für ${industry.name} · Sekretariat24`;
+    const title = `Telefonservice für ${industry.name} · Sekretariat-Service`;
     return {
       meta: [
         { title },

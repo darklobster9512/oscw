@@ -103,7 +103,7 @@ export function Hero() {
             <div className="relative overflow-hidden rounded-[2rem] border border-border bg-white shadow-mockup">
               <img
                 src="/hero-agent.jpg"
-                alt="Freundliche Sekretariat24-Agentin mit Headset nimmt Anrufe entgegen"
+                alt="Freundliche Assistentin mit Headset nimmt Anrufe entgegen"
                 width={1200}
                 height={1408}
                 loading="eager"

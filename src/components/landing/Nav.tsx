@@ -41,7 +41,7 @@ export function Nav() {
         <Phone className="h-4 w-4" strokeWidth={2.25} />
       </span>
       <span className="font-display text-xl font-semibold tracking-tight text-foreground">
-        Sekretariat24
+        Sekretariat-Service
       </span>
     </Link>
   );
@@ -91,9 +91,6 @@ export function Nav() {
           </nav>
 
           <div className="hidden items-center gap-3 lg:flex">
-            <a href="tel:+4921197537952" className="text-sm text-muted-foreground hover:text-foreground">
-              0211 97537952
-            </a>
             <Button asChild size="sm" className="rounded-full">
               <Link to="/kontakt">Kostenlos testen</Link>
             </Button>
@@ -150,12 +147,6 @@ export function Nav() {
             <Link to="/karriere" onClick={() => setOpen(false)} className={mobileLinkCls} activeProps={mobileActiveProps}>Karriere</Link>
             <Link to="/kontakt" onClick={() => setOpen(false)} className={mobileLinkCls} activeProps={mobileActiveProps}>Kontakt</Link>
 
-            <a
-              href="tel:+4921197537952"
-              className="text-base text-muted-foreground hover:text-foreground mt-2"
-            >
-              0211 97537952
-            </a>
 
             <Button asChild className="w-full rounded-full mt-4">
               <Link to="/kontakt" onClick={() => setOpen(false)}>Kostenlos testen</Link>

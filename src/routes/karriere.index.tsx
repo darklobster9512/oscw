@@ -14,9 +14,9 @@ import {
   ShieldCheck,
 } from "lucide-react";
 
-const TITLE = "Karriere – Offene Stellen im Homeoffice · Sekretariat24";
+const TITLE = "Karriere – Offene Stellen im Homeoffice · Sekretariat-Service";
 const DESCRIPTION =
-  "Offene Stellen bei Sekretariat24: Sekretär:in und Recruiter:in – 20 € Stundenlohn, 100 % Homeoffice, Teilzeit oder Vollzeit.";
+  "Offene Stellen bei Sekretariat-Service: Sekretär:in und Recruiter:in – 20 € Stundenlohn, 100 % Homeoffice, Teilzeit oder Vollzeit.";
 
 export const Route = createFileRoute("/karriere/")({
   head: () => ({

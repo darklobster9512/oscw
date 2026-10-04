@@ -78,15 +78,15 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Sekretariat24 – Telefonservice & Sekretariat 24/7" },
+      { title: "Sekretariat-Service – Telefonservice & Sekretariat 24/7" },
       {
         name: "description",
         content:
           "Professioneller Telefonservice aus Deutschland. Jeder Anruf angenommen, jede Nachricht zugestellt – ab 0,59 € pro Gespräch.",
       },
-      { name: "author", content: "Sekretariat24" },
+      { name: "author", content: "Sekretariat-Service" },
       { property: "og:type", content: "website" },
-      { property: "og:site_name", content: "Sekretariat24" },
+      { property: "og:site_name", content: "Sekretariat-Service" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
     links: [
@@ -96,7 +96,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       {
         rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap",
+        href: "https://fonts.googleapis.com/css2?family=Lora:wght@500;600;700&family=Work+Sans:wght@400;500;600;700&display=swap",
       },
     ],
   }),

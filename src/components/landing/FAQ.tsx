@@ -8,7 +8,7 @@ import {
 const faqs = [
   {
     q: "Wie sicher sind unsere Kundendaten?",
-    a: "Sekretariat24 ist vollständig DSGVO-konform. Der Serverstandort ist Deutschland, alle Mitarbeiter sind vertraglich zur Verschwiegenheit verpflichtet, und wir arbeiten nach ISO 27001-Standards.",
+    a: "Sekretariat-Service ist vollständig DSGVO-konform. Der Serverstandort ist Deutschland, alle Mitarbeiter sind vertraglich zur Verschwiegenheit verpflichtet, und wir arbeiten nach ISO 27001-Standards.",
   },
   {
     q: "Wie schnell ist der Service einsatzbereit?",

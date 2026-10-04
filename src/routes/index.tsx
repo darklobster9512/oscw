@@ -19,13 +19,13 @@ import { CTA } from "@/components/landing/CTA";
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Sekretariat24 – Telefonservice & Sekretariat 24/7" },
+      { title: "Sekretariat-Service – Telefonservice & Sekretariat 24/7" },
       {
         name: "description",
         content:
           "Professioneller Telefonservice aus Deutschland. Jeder Anruf angenommen, jede Nachricht zugestellt – ab 0,59 € pro Gespräch.",
       },
-      { property: "og:title", content: "Sekretariat24 – Telefonservice & Sekretariat 24/7" },
+      { property: "og:title", content: "Sekretariat-Service – Telefonservice & Sekretariat 24/7" },
       {
         property: "og:description",
         content:

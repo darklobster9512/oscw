@@ -4,16 +4,16 @@ import { LegalLayout } from "@/components/legal/LegalLayout";
 export const Route = createFileRoute("/agb")({
   head: () => ({
     meta: [
-      { title: "AGB · Sekretariat24" },
+      { title: "AGB · Sekretariat-Service" },
       {
         name: "description",
         content:
-          "Allgemeine Geschäftsbedingungen der aigis one GmbH für den Telefonservice Sekretariat24.",
+          "Allgemeine Geschäftsbedingungen der OSCW Office Service & Co. Working GmbH für den Telefonservice Sekretariat-Service.",
       },
-      { property: "og:title", content: "AGB · Sekretariat24" },
+      { property: "og:title", content: "AGB · Sekretariat-Service" },
       {
         property: "og:description",
-        content: "Vertragsbedingungen für Sekretariat24 – Leistungen, Laufzeit, Preise, Haftung.",
+        content: "Vertragsbedingungen für Sekretariat-Service – Leistungen, Laufzeit, Preise, Haftung.",
       },
       { property: "og:url", content: "/agb" },
       { name: "robots", content: "noindex" },
@@ -27,7 +27,7 @@ function AgbPage() {
   return (
     <LegalLayout
       title="Allgemeine Geschäftsbedingungen"
-      intro={`Diese AGB regeln die Vertragsbeziehung zwischen der aigis one GmbH (nachfolgend „Sekretariat24") und ihren Kundinnen und Kunden.`}
+      intro={`Diese AGB regeln die Vertragsbeziehung zwischen der OSCW Office Service & Co. Working GmbH (nachfolgend „Sekretariat-Service") und ihren Kundinnen und Kunden.`}
       sections={[
         {
           id: "geltung",
@@ -35,8 +35,8 @@ function AgbPage() {
           content: (
             <p>
               Diese Allgemeinen Geschäftsbedingungen (AGB) gelten für sämtliche
-              Verträge über Leistungen der aigis one GmbH, Liefergasse 5,
-              40213 Düsseldorf, im Rahmen des Angebots Sekretariat24.
+              Verträge über Leistungen der OSCW Office Service & Co. Working GmbH, Hugo-Heimann-Str. 37,
+              12353 Berlin, im Rahmen des Angebots Sekretariat-Service.
               Abweichende Bedingungen des Kunden erkennen wir nicht an, es sei
               denn, wir stimmen ihrer Geltung ausdrücklich schriftlich zu.
             </p>
@@ -48,7 +48,7 @@ function AgbPage() {
           content: (
             <>
               <p>
-                Sekretariat24 bietet einen professionellen Telefonservice für
+                Sekretariat-Service bietet einen professionellen Telefonservice für
                 Unternehmen. Dies umfasst insbesondere Anrufannahme im Namen
                 des Kunden, Notieren und Weiterleiten von Nachrichten,
                 Terminvereinbarungen, einfache Auskünfte gemäß vorgegebenem
@@ -68,7 +68,7 @@ function AgbPage() {
           content: (
             <p>
               Der Vertrag kommt durch Bestätigung der Beauftragung durch
-              Sekretariat24 zustande. Sofern ein kostenfreier Testzeitraum
+              Sekretariat-Service zustande. Sofern ein kostenfreier Testzeitraum
               vereinbart wird, endet dieser automatisch ohne gesonderte
               Kündigung; ein Übergang in ein kostenpflichtiges Abonnement
               erfolgt nur, wenn der Kunde diesen ausdrücklich beauftragt.
@@ -108,7 +108,7 @@ function AgbPage() {
           title: "§ 6 Pflichten des Kunden",
           content: (
             <p>
-              Der Kunde stellt Sekretariat24 alle für die Leistungserbringung
+              Der Kunde stellt Sekretariat-Service alle für die Leistungserbringung
               erforderlichen Informationen rechtzeitig und vollständig zur
               Verfügung. Er sorgt insbesondere für die technisch korrekte
               Rufumleitung und stellt sicher, dass er berechtigt ist, die
@@ -121,7 +121,7 @@ function AgbPage() {
           title: "§ 7 Verfügbarkeit",
           content: (
             <p>
-              Sekretariat24 ist bemüht, den Dienst 24/7 verfügbar zu halten.
+              Sekretariat-Service ist bemüht, den Dienst 24/7 verfügbar zu halten.
               Kurzfristige Einschränkungen aufgrund technischer Wartungen,
               Störungen von Vorleistungen (z.&nbsp;B. Netzbetreiber) oder
               höherer Gewalt bleiben vorbehalten.
@@ -133,7 +133,7 @@ function AgbPage() {
           title: "§ 8 Haftung",
           content: (
             <p>
-              Sekretariat24 haftet unbeschränkt für Vorsatz und grobe
+              Sekretariat-Service haftet unbeschränkt für Vorsatz und grobe
               Fahrlässigkeit sowie für Schäden aus der Verletzung des Lebens,
               des Körpers oder der Gesundheit. Bei leichter Fahrlässigkeit
               haften wir nur bei Verletzung wesentlicher Vertragspflichten
@@ -165,7 +165,7 @@ function AgbPage() {
               des UN-Kaufrechts. Ausschließlicher Gerichtsstand für alle
               Streitigkeiten mit Kaufleuten, juristischen Personen des
               öffentlichen Rechts oder öffentlich-rechtlichen Sonder-
-              vermögen ist Düsseldorf. Sollten einzelne Bestimmungen unwirksam
+              vermögen ist Berlin. Sollten einzelne Bestimmungen unwirksam
               sein, bleibt die Wirksamkeit der übrigen Bestimmungen unberührt.
             </p>
           ),

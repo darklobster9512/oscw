@@ -17,7 +17,7 @@ const steps: Step[] = [
   {
     num: "02",
     title: "Rufumleitung einrichten",
-    text: "Sie leiten Ihre Anrufe zu Sekretariat24 um – dauerhaft, bei Bedarf oder außerhalb der Geschäftszeiten.",
+    text: "Sie leiten Ihre Anrufe zu Sekretariat-Service um – dauerhaft, bei Bedarf oder außerhalb der Geschäftszeiten.",
     icon: PhoneForwarded,
   },
   {

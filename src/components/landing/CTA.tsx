@@ -6,18 +6,18 @@ export function CTA() {
     <section
       id="kontakt"
       className="relative overflow-hidden"
-      style={{ background: "#130f40" }}
+      style={{ background: "var(--ink-deep)" }}
     >
       {/* Decorative background glow */}
       <div
         aria-hidden
         className="pointer-events-none absolute -right-20 top-20 h-96 w-96 rounded-full"
-        style={{ background: "radial-gradient(closest-side, rgba(123,237,159,0.25), transparent)" }}
+        style={{ background: "radial-gradient(closest-side, rgba(196,99,74,0.25), transparent)" }}
       />
       <div
         aria-hidden
         className="pointer-events-none absolute -left-20 bottom-0 h-96 w-96 rounded-full"
-        style={{ background: "radial-gradient(closest-side, rgba(123,237,159,0.15), transparent)" }}
+        style={{ background: "radial-gradient(closest-side, rgba(196,99,74,0.15), transparent)" }}
       />
 
       <div className="container-page relative py-20 lg:py-32">
@@ -32,7 +32,7 @@ export function CTA() {
             </div>
 
             <h2 className="mb-8 font-display text-3xl leading-[1.1] tracking-tight text-ink-deep-foreground sm:text-4xl lg:text-6xl">
-              Testen Sie <span className="text-primary">Sekretariat24</span> kostenlos.
+              Testen Sie <span className="text-primary">Sekretariat-Service</span> kostenlos.
             </h2>
 
             <p className="mb-10 max-w-xl text-lg leading-relaxed text-ink-deep-foreground/75 lg:text-xl">
@@ -52,18 +52,6 @@ export function CTA() {
                 </a>
               </Button>
 
-              <a
-                href="tel:+4921197537952"
-                className="group flex flex-col"
-              >
-                <span className="text-sm text-ink-deep-foreground/60">
-                  Persönliche Beratung
-                </span>
-                <span className="flex items-center gap-2 font-semibold text-ink-deep-foreground transition-colors group-hover:text-primary">
-                  <Phone className="h-4 w-4" />
-                  0211 97537952
-                </span>
-              </a>
             </div>
           </div>
 

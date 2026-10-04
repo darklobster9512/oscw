@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Link } from "@tanstack/react-router";
 
-const STORAGE_KEY = "Sekretariat24-cookie-consent";
+const STORAGE_KEY = "Sekretariat-Service-cookie-consent";
 
 export function CookieBanner() {
   const [visible, setVisible] = useState(false);
@@ -37,7 +37,7 @@ export function CookieBanner() {
       aria-label="Cookie-Hinweis"
     >
       <div
-        className="rounded-2xl border border-white/10 bg-[#130f40] p-5 text-white shadow-2xl shadow-black/30 backdrop-blur animate-in fade-in slide-in-from-bottom-4 duration-500"
+        className="rounded-2xl border border-white/10 bg-ink-deep p-5 text-white shadow-2xl shadow-black/30 backdrop-blur animate-in fade-in slide-in-from-bottom-4 duration-500"
       >
         <p className="text-sm leading-relaxed text-white/85">
           Wir verwenden Cookies, um unsere Website zu verbessern. Details findest du in den{" "}

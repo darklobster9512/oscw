@@ -27,7 +27,7 @@ export function FinalNote() {
             Vertrauen
           </div>
           <h2 className="mt-3 font-display text-3xl leading-tight tracking-tight md:text-4xl">
-            Über 500 Unternehmen telefonieren bereits mit Sekretariat24.
+            Über 500 Unternehmen telefonieren bereits mit Sekretariat-Service.
           </h2>
           <p className="mt-4 text-lg text-muted-foreground">
             Aus Deutschland, für Deutschland. Wir setzen auf höchste

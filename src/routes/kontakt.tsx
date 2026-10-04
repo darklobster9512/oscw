@@ -21,13 +21,13 @@ import {
 export const Route = createFileRoute("/kontakt")({
   head: () => ({
     meta: [
-      { title: "Kontakt & Rückruf-Service · Sekretariat24" },
+      { title: "Kontakt & Rückruf-Service · Sekretariat-Service" },
       {
         name: "description",
         content:
           "Rückruf innerhalb von 60 Minuten. Sprechen Sie mit unserem Team über Ihren individuellen Telefonservice.",
       },
-      { property: "og:title", content: "Kontakt & Rückruf-Service · Sekretariat24" },
+      { property: "og:title", content: "Kontakt & Rückruf-Service · Sekretariat-Service" },
       {
         property: "og:description",
         content:
@@ -151,29 +151,15 @@ function KontaktPage() {
             <div className="mt-8 space-y-5">
               <div className="flex items-start gap-4">
                 <div className="grid h-10 w-10 place-items-center rounded-lg bg-primary/8 text-primary ring-1 ring-primary/10">
-                  <Phone className="h-4 w-4" />
-                </div>
-                <div>
-                  <div className="text-sm text-muted-foreground">Telefon</div>
-                  <a
-                    href="tel:+4921197537952"
-                    className="font-medium hover:text-primary"
-                  >
-                    0211 97537952
-                  </a>
-                </div>
-              </div>
-              <div className="flex items-start gap-4">
-                <div className="grid h-10 w-10 place-items-center rounded-lg bg-primary/8 text-primary ring-1 ring-primary/10">
                   <Mail className="h-4 w-4" />
                 </div>
                 <div>
                   <div className="text-sm text-muted-foreground">E-Mail</div>
                   <a
-                    href="mailto:info@sekretariat24.app"
+                    href="mailto:kontakt@sekretariat-service.de"
                     className="font-medium hover:text-primary"
                   >
-                    info@sekretariat24.app
+                    kontakt@sekretariat-service.de
                   </a>
                 </div>
               </div>
@@ -184,7 +170,7 @@ function KontaktPage() {
                 <div>
                   <div className="text-sm text-muted-foreground">Adresse</div>
                   <div className="font-medium">
-                    aigis one GmbH · Liefergasse 5 · 40213 Düsseldorf
+                    OSCW Office Service & Co. Working GmbH · Hugo-Heimann-Str. 37 · 12353 Berlin
                   </div>
                 </div>
               </div>
@@ -199,12 +185,6 @@ function KontaktPage() {
               </div>
             </div>
 
-            <a
-              href="tel:+4921197537952"
-              className="mt-8 inline-flex items-center gap-2 rounded-full border border-border bg-surface px-5 py-2.5 text-sm font-medium hover:border-primary/40 hover:text-primary transition-colors"
-            >
-              <PhoneCall className="h-4 w-4" /> Jetzt direkt anrufen
-            </a>
           </div>
 
           {/* Right – primary card */}
