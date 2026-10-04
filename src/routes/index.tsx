@@ -1,42 +1,35 @@
 import { createFileRoute } from "@tanstack/react-router";
 import { Nav } from "@/components/landing/Nav";
 import { Footer } from "@/components/landing/Footer";
-import { Hero } from "@/components/landing/Hero";
-import { LiveMetrics } from "@/components/landing/LiveMetrics";
+import {
+  HomeHero,
+  TrustBar,
+  ProblemSolution,
+  Services,
+  Steps,
+  IndustryList,
+  DayInTheLife,
+  PricingTable,
+  Voices,
+  Questions,
+  Closing,
+} from "@/components/landing/home/HomeSections";
 
-import { BentoBenefits } from "@/components/landing/BentoBenefits";
-import { Industries } from "@/components/landing/Industries";
-import { HowItWorks } from "@/components/landing/HowItWorks";
-import { CallcenterSection } from "@/components/landing/CallcenterSection";
-import { Integrations } from "@/components/landing/Integrations";
-
-import { Pricing } from "@/components/landing/Pricing";
-import { Testimonials } from "@/components/landing/Testimonials";
-import { FAQ } from "@/components/landing/FAQ";
-import { CTA } from "@/components/landing/CTA";
-
+const title = "Sekretariat-Service – Ihre ausgelagerte Telefonzentrale";
+const description =
+  "Sie arbeiten, wir gehen ran: Telefonannahme in Ihrem Namen, Terminvergabe und sofortige Weiterleitung. Keine Grundgebühr, monatlich kündbar.";
 
 export const Route = createFileRoute("/")({
   head: () => ({
     meta: [
-      { title: "Sekretariat-Service – Telefonservice & Sekretariat 24/7" },
-      {
-        name: "description",
-        content:
-          "Professioneller Telefonservice aus Deutschland. Jeder Anruf angenommen, jede Nachricht zugestellt – ab 0,59 € pro Gespräch.",
-      },
-      { property: "og:title", content: "Sekretariat-Service – Telefonservice & Sekretariat 24/7" },
-      {
-        property: "og:description",
-        content:
-          "Professioneller Telefonservice aus Deutschland. Jeder Anruf angenommen, jede Nachricht zugestellt – ab 0,59 € pro Gespräch.",
-      },
+      { title },
+      { name: "description", content: description },
+      { property: "og:title", content: title },
+      { property: "og:description", content: description },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
     ],
-    links: [
-      { rel: "preload", as: "image", href: "/hero-agent.jpg", fetchpriority: "high" },
-    ],
+    links: [{ rel: "preload", as: "image", href: "/hero-agent.jpg", fetchpriority: "high" }],
   }),
   component: Index,
 });
@@ -46,18 +39,17 @@ function Index() {
     <div className="min-h-screen bg-background">
       <Nav />
       <main>
-        <Hero />
-        <LiveMetrics />
-        
-        <BentoBenefits />
-        <Industries />
-        <HowItWorks />
-        <CallcenterSection />
-        <Integrations />
-        <Pricing />
-        <Testimonials />
-        <CTA />
-        <FAQ />
+        <HomeHero />
+        <TrustBar />
+        <ProblemSolution />
+        <Services />
+        <Steps />
+        <IndustryList />
+        <DayInTheLife />
+        <PricingTable />
+        <Voices />
+        <Questions />
+        <Closing />
       </main>
       <Footer />
     </div>

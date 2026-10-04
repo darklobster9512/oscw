@@ -62,7 +62,7 @@ export function Nav() {
 
           <nav className="hidden items-center gap-8 lg:flex">
             <Link to="/preise" className={linkCls}>Preise</Link>
-            <Link to="/vorteile" className={linkCls}>Vorteile</Link>
+            <Link to="/vorteile" className={linkCls}>Leistungen</Link>
 
             <DropdownMenu>
               <DropdownMenuTrigger className={`${linkCls} inline-flex items-center gap-1 outline-none`}>
@@ -92,7 +92,7 @@ export function Nav() {
 
           <div className="hidden items-center gap-3 lg:flex">
             <Button asChild size="sm" className="rounded-full">
-              <Link to="/kontakt">Kostenlos testen</Link>
+              <Link to="/kontakt">Anfragen</Link>
             </Button>
           </div>
 
@@ -116,7 +116,7 @@ export function Nav() {
 
           <div className="flex-1 overflow-y-auto container-page py-6 flex flex-col gap-1">
             <Link to="/preise" onClick={() => setOpen(false)} className={mobileLinkCls} activeProps={mobileActiveProps}>Preise</Link>
-            <Link to="/vorteile" onClick={() => setOpen(false)} className={mobileLinkCls} activeProps={mobileActiveProps}>Vorteile</Link>
+            <Link to="/vorteile" onClick={() => setOpen(false)} className={mobileLinkCls} activeProps={mobileActiveProps}>Leistungen</Link>
 
             <button
               onClick={() => setBranchenOpen(!branchenOpen)}
@@ -149,7 +149,7 @@ export function Nav() {
 
 
             <Button asChild className="w-full rounded-full mt-4">
-              <Link to="/kontakt" onClick={() => setOpen(false)}>Kostenlos testen</Link>
+              <Link to="/kontakt" onClick={() => setOpen(false)}>Anfragen</Link>
             </Button>
           </div>
         </div>,
