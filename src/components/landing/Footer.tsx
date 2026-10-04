@@ -28,7 +28,7 @@ export function Footer() {
   return (
     <footer
       className="relative overflow-hidden"
-      style={{ background: "#130f40" }}
+      style={{ background: "var(--ink-deep)" }}
     >
       {/* Decorative glows */}
       <div

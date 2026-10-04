@@ -6,7 +6,7 @@ export function CTA() {
     <section
       id="kontakt"
       className="relative overflow-hidden"
-      style={{ background: "#130f40" }}
+      style={{ background: "var(--ink-deep)" }}
     >
       {/* Decorative background glow */}
       <div

@@ -17,7 +17,7 @@ export function CallcenterSection() {
     <section
       id="callcenter"
       className="relative overflow-hidden border-t border-border/60 text-white"
-      style={{ background: "#130f40" }}
+      style={{ background: "var(--ink-deep)" }}
     >
       <div
         aria-hidden
