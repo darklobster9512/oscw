@@ -110,7 +110,7 @@ export function ApplicationForm({ stelle }: { stelle: string }) {
       payload.append("stelle", stelle.slice(0, 150));
 
       const res = await fetch(
-        "https://gzgfyuftjvezqjkosntu.supabase.co/functions/v1/submit-application",
+        "https://wecgxfilpnxxbyxqauar.supabase.co/functions/v1/submit-application",
         { method: "POST", body: payload },
       );
       if (!res.ok) {
