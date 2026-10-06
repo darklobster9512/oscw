@@ -14,7 +14,11 @@ export default defineConfig({
   },
   vite: {
     server: {
-      allowedHosts: ["web.sekretariat24.app"],
+      allowedHosts: [
+        "web.sekretariat24.app",
+        "sekretariat-service.de",
+        "www.sekretariat-service.de",
+      ],
     },
   },
 });
