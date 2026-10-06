@@ -9,59 +9,24 @@
 // Additionally, you should also exclude this file from your linter and/or formatter to prevent it from being checked or modified.
 
 import { Route as rootRouteImport } from './routes/__root'
-import { Route as VorteileRouteImport } from './routes/vorteile'
-import { Route as PreiseRouteImport } from './routes/preise'
-import { Route as KontaktRouteImport } from './routes/kontakt'
-import { Route as KarriereRouteImport } from './routes/karriere'
-import { Route as ImpressumRouteImport } from './routes/impressum'
-import { Route as DatenschutzRouteImport } from './routes/datenschutz'
-import { Route as CookieEinstellungenRouteImport } from './routes/cookie-einstellungen'
-import { Route as CallcenterRouteImport } from './routes/callcenter'
-import { Route as AgbRouteImport } from './routes/agb'
 import { Route as IndexRouteImport } from './routes/index'
-import { Route as KarriereIndexRouteImport } from './routes/karriere.index'
-import { Route as KarriereSekretariatRouteImport } from './routes/karriere.sekretariat'
-import { Route as KarriereRecruitingRouteImport } from './routes/karriere.recruiting'
+import { Route as AgbRouteImport } from './routes/agb'
+import { Route as CallcenterRouteImport } from './routes/callcenter'
+import { Route as CookieEinstellungenRouteImport } from './routes/cookie-einstellungen'
+import { Route as DatenschutzRouteImport } from './routes/datenschutz'
+import { Route as ImpressumRouteImport } from './routes/impressum'
+import { Route as KarriereRouteImport } from './routes/karriere'
+import { Route as KontaktRouteImport } from './routes/kontakt'
+import { Route as PreiseRouteImport } from './routes/preise'
+import { Route as VorteileRouteImport } from './routes/vorteile'
 import { Route as BranchenSlugRouteImport } from './routes/branchen.$slug'
+import { Route as KarriereIndexRouteImport } from './routes/karriere.index'
+import { Route as KarriereRecruitingRouteImport } from './routes/karriere.recruiting'
+import { Route as KarriereSekretariatRouteImport } from './routes/karriere.sekretariat'
 
-const VorteileRoute = VorteileRouteImport.update({
-  id: '/vorteile',
-  path: '/vorteile',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const PreiseRoute = PreiseRouteImport.update({
-  id: '/preise',
-  path: '/preise',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const KontaktRoute = KontaktRouteImport.update({
-  id: '/kontakt',
-  path: '/kontakt',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const KarriereRoute = KarriereRouteImport.update({
-  id: '/karriere',
-  path: '/karriere',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const ImpressumRoute = ImpressumRouteImport.update({
-  id: '/impressum',
-  path: '/impressum',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const DatenschutzRoute = DatenschutzRouteImport.update({
-  id: '/datenschutz',
-  path: '/datenschutz',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const CookieEinstellungenRoute = CookieEinstellungenRouteImport.update({
-  id: '/cookie-einstellungen',
-  path: '/cookie-einstellungen',
-  getParentRoute: () => rootRouteImport,
-} as any)
-const CallcenterRoute = CallcenterRouteImport.update({
-  id: '/callcenter',
-  path: '/callcenter',
+const IndexRoute = IndexRouteImport.update({
+  id: '/',
+  path: '/',
   getParentRoute: () => rootRouteImport,
 } as any)
 const AgbRoute = AgbRouteImport.update({
@@ -69,9 +34,49 @@ const AgbRoute = AgbRouteImport.update({
   path: '/agb',
   getParentRoute: () => rootRouteImport,
 } as any)
-const IndexRoute = IndexRouteImport.update({
-  id: '/',
-  path: '/',
+const CallcenterRoute = CallcenterRouteImport.update({
+  id: '/callcenter',
+  path: '/callcenter',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const CookieEinstellungenRoute = CookieEinstellungenRouteImport.update({
+  id: '/cookie-einstellungen',
+  path: '/cookie-einstellungen',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const DatenschutzRoute = DatenschutzRouteImport.update({
+  id: '/datenschutz',
+  path: '/datenschutz',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const ImpressumRoute = ImpressumRouteImport.update({
+  id: '/impressum',
+  path: '/impressum',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const KarriereRoute = KarriereRouteImport.update({
+  id: '/karriere',
+  path: '/karriere',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const KontaktRoute = KontaktRouteImport.update({
+  id: '/kontakt',
+  path: '/kontakt',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const PreiseRoute = PreiseRouteImport.update({
+  id: '/preise',
+  path: '/preise',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const VorteileRoute = VorteileRouteImport.update({
+  id: '/vorteile',
+  path: '/vorteile',
+  getParentRoute: () => rootRouteImport,
+} as any)
+const BranchenSlugRoute = BranchenSlugRouteImport.update({
+  id: '/branchen/$slug',
+  path: '/branchen/$slug',
   getParentRoute: () => rootRouteImport,
 } as any)
 const KarriereIndexRoute = KarriereIndexRouteImport.update({
@@ -79,20 +84,15 @@ const KarriereIndexRoute = KarriereIndexRouteImport.update({
   path: '/',
   getParentRoute: () => KarriereRoute,
 } as any)
-const KarriereSekretariatRoute = KarriereSekretariatRouteImport.update({
-  id: '/sekretariat',
-  path: '/sekretariat',
-  getParentRoute: () => KarriereRoute,
-} as any)
 const KarriereRecruitingRoute = KarriereRecruitingRouteImport.update({
   id: '/recruiting',
   path: '/recruiting',
   getParentRoute: () => KarriereRoute,
 } as any)
-const BranchenSlugRoute = BranchenSlugRouteImport.update({
-  id: '/branchen/$slug',
-  path: '/branchen/$slug',
-  getParentRoute: () => rootRouteImport,
+const KarriereSekretariatRoute = KarriereSekretariatRouteImport.update({
+  id: '/sekretariat',
+  path: '/sekretariat',
+  getParentRoute: () => KarriereRoute,
 } as any)
 
 export interface FileRoutesByFullPath {
@@ -209,60 +209,11 @@ export interface RootRouteChildren {
 
 declare module '@tanstack/react-router' {
   interface FileRoutesByPath {
-    '/vorteile': {
-      id: '/vorteile'
-      path: '/vorteile'
-      fullPath: '/vorteile'
-      preLoaderRoute: typeof VorteileRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/preise': {
-      id: '/preise'
-      path: '/preise'
-      fullPath: '/preise'
-      preLoaderRoute: typeof PreiseRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/kontakt': {
-      id: '/kontakt'
-      path: '/kontakt'
-      fullPath: '/kontakt'
-      preLoaderRoute: typeof KontaktRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/karriere': {
-      id: '/karriere'
-      path: '/karriere'
-      fullPath: '/karriere'
-      preLoaderRoute: typeof KarriereRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/impressum': {
-      id: '/impressum'
-      path: '/impressum'
-      fullPath: '/impressum'
-      preLoaderRoute: typeof ImpressumRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/datenschutz': {
-      id: '/datenschutz'
-      path: '/datenschutz'
-      fullPath: '/datenschutz'
-      preLoaderRoute: typeof DatenschutzRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/cookie-einstellungen': {
-      id: '/cookie-einstellungen'
-      path: '/cookie-einstellungen'
-      fullPath: '/cookie-einstellungen'
-      preLoaderRoute: typeof CookieEinstellungenRouteImport
-      parentRoute: typeof rootRouteImport
-    }
-    '/callcenter': {
-      id: '/callcenter'
-      path: '/callcenter'
-      fullPath: '/callcenter'
-      preLoaderRoute: typeof CallcenterRouteImport
+    '/': {
+      id: '/'
+      path: '/'
+      fullPath: '/'
+      preLoaderRoute: typeof IndexRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/agb': {
@@ -272,11 +223,67 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof AgbRouteImport
       parentRoute: typeof rootRouteImport
     }
-    '/': {
-      id: '/'
-      path: '/'
-      fullPath: '/'
-      preLoaderRoute: typeof IndexRouteImport
+    '/callcenter': {
+      id: '/callcenter'
+      path: '/callcenter'
+      fullPath: '/callcenter'
+      preLoaderRoute: typeof CallcenterRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/cookie-einstellungen': {
+      id: '/cookie-einstellungen'
+      path: '/cookie-einstellungen'
+      fullPath: '/cookie-einstellungen'
+      preLoaderRoute: typeof CookieEinstellungenRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/datenschutz': {
+      id: '/datenschutz'
+      path: '/datenschutz'
+      fullPath: '/datenschutz'
+      preLoaderRoute: typeof DatenschutzRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/impressum': {
+      id: '/impressum'
+      path: '/impressum'
+      fullPath: '/impressum'
+      preLoaderRoute: typeof ImpressumRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/karriere': {
+      id: '/karriere'
+      path: '/karriere'
+      fullPath: '/karriere'
+      preLoaderRoute: typeof KarriereRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/kontakt': {
+      id: '/kontakt'
+      path: '/kontakt'
+      fullPath: '/kontakt'
+      preLoaderRoute: typeof KontaktRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/preise': {
+      id: '/preise'
+      path: '/preise'
+      fullPath: '/preise'
+      preLoaderRoute: typeof PreiseRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/vorteile': {
+      id: '/vorteile'
+      path: '/vorteile'
+      fullPath: '/vorteile'
+      preLoaderRoute: typeof VorteileRouteImport
+      parentRoute: typeof rootRouteImport
+    }
+    '/branchen/$slug': {
+      id: '/branchen/$slug'
+      path: '/branchen/$slug'
+      fullPath: '/branchen/$slug'
+      preLoaderRoute: typeof BranchenSlugRouteImport
       parentRoute: typeof rootRouteImport
     }
     '/karriere/': {
@@ -286,13 +293,6 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof KarriereIndexRouteImport
       parentRoute: typeof KarriereRoute
     }
-    '/karriere/sekretariat': {
-      id: '/karriere/sekretariat'
-      path: '/sekretariat'
-      fullPath: '/karriere/sekretariat'
-      preLoaderRoute: typeof KarriereSekretariatRouteImport
-      parentRoute: typeof KarriereRoute
-    }
     '/karriere/recruiting': {
       id: '/karriere/recruiting'
       path: '/recruiting'
@@ -300,12 +300,12 @@ declare module '@tanstack/react-router' {
       preLoaderRoute: typeof KarriereRecruitingRouteImport
       parentRoute: typeof KarriereRoute
     }
-    '/branchen/$slug': {
-      id: '/branchen/$slug'
-      path: '/branchen/$slug'
-      fullPath: '/branchen/$slug'
-      preLoaderRoute: typeof BranchenSlugRouteImport
-      parentRoute: typeof rootRouteImport
+    '/karriere/sekretariat': {
+      id: '/karriere/sekretariat'
+      path: '/sekretariat'
+      fullPath: '/karriere/sekretariat'
+      preLoaderRoute: typeof KarriereSekretariatRouteImport
+      parentRoute: typeof KarriereRoute
     }
   }
 }
