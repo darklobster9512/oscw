@@ -4,7 +4,7 @@ import { jobs } from "@/data/jobs";
 
 const job = jobs.find((j) => j.slug === "sekretariat")!;
 
-const SEKRETARIAT_PIXEL_ID = "1041951465362957";
+const KARRIERE_PIXEL_ID = "1999340737399086";
 
 const sekretariatPixelScript = `!function(f,b,e,v,n,t,s)
 {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
