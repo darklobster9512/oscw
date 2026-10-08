@@ -14,7 +14,7 @@ n.queue=[];t=b.createElement(e);t.async=!0;
 t.src=v;s=b.getElementsByTagName(e)[0];
 s.parentNode.insertBefore(t,s)}(window,document,'script',
 'https://connect.facebook.net/en_US/fbevents.js');
-fbq('init','${SEKRETARIAT_PIXEL_ID}');
+fbq('init','${KARRIERE_PIXEL_ID}');
 fbq('track','PageView');`;
 
 const sekretariatPixelNoScript = `var ns=document.createElement('noscript');
@@ -22,7 +22,7 @@ var img=document.createElement('img');
 img.height=1;
 img.width=1;
 img.style.display='none';
-img.src='https://www.facebook.com/tr?id=${SEKRETARIAT_PIXEL_ID}&ev=PageView&noscript=1';
+img.src='https://www.facebook.com/tr?id=${KARRIERE_PIXEL_ID}&ev=PageView&noscript=1';
 ns.appendChild(img);
 document.body.appendChild(ns);`;
 
