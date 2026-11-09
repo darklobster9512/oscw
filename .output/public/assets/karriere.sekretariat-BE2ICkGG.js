@@ -1,0 +1,1 @@
+import{t as e}from"./index-CbaOB2_f.js";import{t}from"./JobPage-B_mLH6sX.js";import{o as n}from"./useSelector-DVnrlu_j.js";var r=n(),i=()=>(0,r.jsx)(t,{job:e});export{i as component};

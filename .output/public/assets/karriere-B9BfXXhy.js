@@ -1,0 +1,1 @@
+import{s as e}from"./index-CbaOB2_f.js";import{o as t}from"./useSelector-DVnrlu_j.js";var n=t(),r=()=>(0,n.jsx)(e,{});export{r as component};
