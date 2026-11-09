@@ -1,0 +1,29 @@
+name: Build for Node server
+on:
+  push:
+    branches-ignore: [build]
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm install
+      - run: npm run build
+        env:
+          NITRO_PRESET: node-server
+      - name: Push .output to build branch
+        run: |
+          mkdir /tmp/out && cp -r .output /tmp/out/
+          cd /tmp/out
+          git init -b build
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add -A
+          git commit -m "Build ${GITHUB_SHA}"
+          git push -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" build
